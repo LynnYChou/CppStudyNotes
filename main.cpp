@@ -14,7 +14,7 @@ int main(){
   signed x; // Keep both positive and negative integers (this is the default state for data type "int")
   unsigned y; // Keep only the positive integers
   
-  // Below are ways to initialize real numbers
+  // Use these data types to initialize real numbers
 
   float a;
   double b;
@@ -32,6 +32,7 @@ int main(){
   int &v = x; // You MUST initialize a reference variable (to which variable it is referred to)
 
   /* Understanding arithmetic operations */
+  
   int first_oper {20};
   int second_oper {10};
 
@@ -41,6 +42,7 @@ int main(){
   cout << "Your result is :" << result << endl;
 
   /* Take input from keyboard */
+
   int var {}; // Initialize var with value 0
   cout << "Please enter an integer value: ";
   cin >> var; //Extract the value according to the type of var
@@ -58,7 +60,7 @@ int main(){
   // The result of an arithmetic operation is decided by (the highest precedence data type of) the operands 
 
   /* Solution 1 (by explicit casting) */
-  
+
   int x;
   int y;
   double result;
