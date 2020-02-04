@@ -1,6 +1,6 @@
 /* Notes for understanding data type and variables */
 
-#include <isostream>
+#include <iostream>
 using namespace std;
 
 int main(){
