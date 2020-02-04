@@ -16,3 +16,4 @@ int main(){
   double b;
   long c;
   
+}
