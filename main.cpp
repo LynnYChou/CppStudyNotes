@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
   
-  /* Notes for understanding data type and variables in C++ programming */
+  /* Notes for understanding data types and variables in C++ programming */
 
   int age {10}; // Initialize an integer variable with value 10
   // Same as int age = 10
