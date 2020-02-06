@@ -32,7 +32,7 @@ int main(){
   // Understanding reference variable
 
   int x = 10;
-  int &v = x; // You MUST initialize a reference variable (to which variable it is referred to)
+  int &v = x; // You MUST initialize a reference variable (indicate to which variable it is referred to)
 
   // Understanding arithmetic operations
   
