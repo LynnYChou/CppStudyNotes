@@ -6,18 +6,15 @@
 using namespace std;
 
 int main(){
-
 /*
   // Understanding data types and variables
-
   int age {10}; // Initialize an integer variable with value 10
-  // Similar to int age = 10;
+                // It's similar to int age = 10;
   
   signed x; // Keep both positive and negative integers (this is the default state for data type "int")
   unsigned y; // Keep only the positive integers
   
   // Use these data types to initialize real numbers
-
   float a;
   double b;
   long c;
@@ -28,48 +25,39 @@ int main(){
   cout << "Type of myVar: " << typeid(myVar).name() << endl;
 
   // Understanding reference variable
-
   int x = 10;
   int &v = x; // You MUST initialize a reference variable (indicate to which variable it is referred to)
 
   // Understanding arithmetic operations
-  
   int first_oper {20};
   int second_oper {10};
-
   int result;
 
   result = first_oper % second_oper;
   cout << "Your result is :" << result << endl;
 
   // Take input from keyboard
-
   int var {}; // Initialize var with value 0
   cout << "Please enter an integer value: ";
   cin >> var; //Extract the value according to the type of var
   cout << "Var is: " << var << endl;
 
   // Error-generating example
-  
   int x;
   int y;
   double result;
 
   result = x / y;
   cout << result << endl;
-
   // The result of an arithmetic operation is decided by (the highest precedence data type of) the operands 
 
   // Solution (by explicit casting)
-
   int x;
   int y;
   double result;
   result = (double)x / y;
-
 */
   // Understand pointers
-
   int temp1 = 300, temp2 = 351;
   cout << "Address of temp1: " << &temp1 << endl;
   cout << "Address of temp2: " << &temp2 << endl;
