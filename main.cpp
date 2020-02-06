@@ -49,7 +49,7 @@ int main(){
 
   result = x / y;
   cout << result << endl;
-  // The result of an arithmetic operation is decided by (the highest precedence data type of) the operands 
+  // NOTES: the result of an arithmetic operation is decided by (the highest precedence data type of) the operands 
 
   // Solution (by explicit casting)
   int x;
@@ -69,9 +69,10 @@ int main(){
   cout << "Content of the location now: " << *pt2 << endl; 
 
   // Convert a character pointer to an integer pointer
-  char *pk = (char *)pt2;
+  char *pk; // declare a character pointer pk
+  pk = (char *)pt2; // assign the content of an integer pointer (pt2) to a character pointer (pk)
   cout << "Content of the location that pk is pointed to: " << *pk << endl;
-  // Since pk is a character pointer (which only keep one byte),
+  // NOTES: since pk is a character pointer (which only keep one byte),
   // it's now pointed to the first address of the value 351 (out of four addresses)
   // in which contains the value of 44 (in binary). So by ASCII table, the output of *pk is "," 
 
