@@ -11,7 +11,7 @@ int main(){
   int age {10}; // Initialize an integer variable with value 10
                 // It's similar to int age = 10;
   
-  signed x; // Keep both positive and negative integers (this is the default state for data type "int")
+  signed x; // Keep both positive and negative integers (this is the default state for the integer data type)
   unsigned y; // Keep only the positive integers
   
   // Use these data types to initialize real numbers
