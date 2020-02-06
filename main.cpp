@@ -1,5 +1,4 @@
-
-// Notes about learning C++ programming from the beginning to beyond
+// Notes about programming in C++ from the beginning to beyond
 
 #include <iostream>
 #include <typeinfo>
