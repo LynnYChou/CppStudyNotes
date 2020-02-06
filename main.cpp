@@ -23,8 +23,7 @@ int main(){
   long c;
 
   // If the programmer is not sure about the data type of a particular value
-  // You MUST assign a value to this variable when using this data type
-
+  // By using auto, you MUST assign a value to this variable when using this data type
   auto myVar = 9.5; // Let the compiler decide the data type
   cout << "Type of myVar: " << typeid(myVar).name() << endl;
 
