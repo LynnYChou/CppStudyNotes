@@ -18,5 +18,5 @@ git rm --cached <filename> // Remove file
 git commit
 gitk --all& // Show visually what's going on
 git diff // Show changings in the source code
-git checkout // Go back to the old timeline/ forward to the newest commit(master)
+git checkout // Go back to the old timeline/ forward to the newest commit (master)
 ```
