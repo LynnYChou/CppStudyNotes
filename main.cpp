@@ -75,18 +75,9 @@ int main(){
   // NOTES: since pk is a character pointer (which only keep one byte),
   // it's now pointed to the first address of the value 351 (out of four addresses)
   // in which contains the value of 44 (in binary). So by ASCII table, the output of *pk is "," 
-
-
-
-
-
+  
   return 0;
-
 }
-
-
-
-
 
 
 
