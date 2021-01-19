@@ -20,3 +20,5 @@ gitk --all& // Show visually what's going on
 git diff // Show changings in the source code
 git checkout // Go back to the old timeline/ forward to the newest commit (master)
 ```
+Lectures on Dynamic Programming...
+https://www.youtube.com/watch?v=OQ5jsbhAv_M
